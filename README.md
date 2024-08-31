@@ -1,3 +1,4 @@
+# Antes de começar
 Todos os scripts foram feitos para rodarem dentro do terminal mongosh configurado para um self-host. 
 Talvez seja necessário fazer alguns ajustes para rodar em servidores remotos.
 
@@ -7,21 +8,21 @@ achei para que a ordem dos scripts ficassem na mesma ordem ao qual foi pedido ao
 
 ---
 
-Detalhes do Roteiro da Aula Pratica:
+# Detalhes do Roteiro da Aula Pratica:
 
-**Objetivos:** 
+## **Objetivos:** 
 Criar e manipular um banco de dados não relacional no MongoDB.
 
-**Atividade proposta:**
+## **Atividade proposta:**
 Criar um banco de dados no MongoDB Compass, inserir e atualizar documentos em uma collection.
 
 ---
 
 
-**Procedimentos para a realização da atividade Nº 1:**
+### **Procedimentos para a realização da atividade Nº 1:**
 *Nesta atividade você deverá criar um banco de dados no MongoDB Compass chamado de “lojadb”. Ele será utilizado no contexto de uma loja, onde você deverá cadastrar documentos referentes a vendas efetuadas pela loja.* 
 
-Etapa 1: 
+#### Etapa 1: 
 - Crie o banco de dados, e em seguida realize a criação de uma collection “vendas”. 
 - Agora insira os seguintes dados conforme o conhecimento adquirido nas aulas, utilizando o comando “insert” pela Shell do mongodb, ou graficamente pelo Compass:
 	- Inicialmente, vamos inserir apenas os dados básicos dos clientes que realizaram compras na loja. Para isso, utilize as informações na tabela a seguir. Note que o campo telefone deverá ser adicionado como uma Array.
@@ -36,7 +37,8 @@ Etapa 1:
 
 
 
-**Etapa 2: Vamos continuar o processo de inserção de dados que iniciamos na etapa anterior. Para isso, você terá de ATUALIZAR documentos já presentes na collection.** 
+#### Etapa 2: 
+**Vamos continuar o processo de inserção de dados que iniciamos na etapa anterior. Para isso, você terá de ATUALIZAR documentos já presentes na collection.** 
 
 -  Vamos adicionar o endereço de cada cliente conforme a tabela a seguir. O endereço deverá ser inserido como um campo do tipo Objeto, separando dentro dele a rua, número, complemento, cidade e estado. 
 
@@ -61,10 +63,10 @@ Etapa 1:
 
 ---
 
-**Procedimentos para a realização da atividade Nº 2:** 
+## **Procedimentos para a realização da atividade Nº 2:** 
 *Realizar pesquisas e consultas em um banco de dados não relacional (MongoDB)*
 
-Para cada consulta que realizar, informe o comando correto:
+### Para cada consulta que realizar, informe o comando correto:
 
 - Realize uma consulta que retorne todos os documentos da collection.
 - Realize uma consulta que localize as informações da cliente “Maria”.
@@ -74,6 +76,6 @@ Para cada consulta que realizar, informe o comando correto:
 
 ---
 
-**Resultados da aula prática:**
+## **Resultados da aula prática:**
 
 É esperado que ao término da prática o aluno saiba desenvolver bancos de dados não relacionais orientados a documentos utilizando o MongoDB, incluindo a criação de collections e inserção/atualização de documentos, bem como a realização de consultas à base de dados.
